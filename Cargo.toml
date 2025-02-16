@@ -7,4 +7,4 @@ edition = "2021"
 
 [[bin]]
 name = "ray_tracing_weekend_rust"
-path = "main.rs"
+path = "src/main.rs"
