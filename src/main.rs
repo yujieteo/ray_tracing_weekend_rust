@@ -7,7 +7,7 @@ fn main() {
 
 	for j in 0..image_height {
 		for i in 0..image_width {
-			
+			eprintln!("\rScanlines remaining: {} ", (image_height - j));
 			// Type declared on level of functions
 			let r = i as f64 / (image_width - 1) as f64;
 			let g = j as f64 / (image_height - 1) as f64;

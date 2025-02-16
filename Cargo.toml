@@ -1,0 +1,10 @@
+[package]
+name = "ray_tracing_weekend_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "ray_tracing_weekend_rust"
+path = "main.rs"
